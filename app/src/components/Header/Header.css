@@ -1,0 +1,160 @@
+header {    
+    display:flex;   
+    height:150px;  
+    width: 100%;
+    margin-bottom: 4rem;   
+}
+.header {    
+    display:flex;  
+    width: 60%;
+    align-items: center;
+    justify-content:space-evenly; 
+    
+}
+.phtoProfile{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.phtoProfile:hover{
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.7);
+}
+.header-img {
+    height: 100%;    
+    width: 40%;   
+    display: flex;
+    justify-content: start;     
+}
+.image{    
+    width: 140px;
+    height: 100%;
+    margin-left: 40px;  
+}
+.header-img .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+}
+li{
+    list-style-type: none;
+}
+li a button{
+    background: none;
+  
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;      
+}
+li a button:hover{
+ transition:  0.5s all ease-in-out;
+ transform: scale(1.1);
+ color: rgba(129, 60, 3, 0.726);
+ cursor: pointer;
+}
+.logout{
+    background: none;  
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+.logout:hover{
+    transition:  0.5s all ease-in-out;
+    transform: scale(1.1);
+    color: rgba(129, 60, 3, 0.726);
+    cursor: pointer;
+}
+@media (max-width: 992px){
+  header{
+      height: 130px;  
+      margin-bottom: 1rem;       
+  }
+  .image{
+    margin-left: 60px;
+    width: 120px;
+  }  
+  li a button{
+    font-size: 1.1rem;
+  }
+  .logout{
+    font-size: 1.1rem;
+  }
+  .phtoProfile{
+    width: 25px;
+    height: 25px;
+  
+}
+
+}
+@media(max-width: 768px){
+    header{
+        height: 100px;  
+        margin-bottom: 1rem;       
+    }
+    .image{
+        margin-left: 50px;
+        width: 100px;           
+      }
+    li a button{
+      font-size: 0.8rem;
+    }   
+    .logout{
+        font-size: 0.8rem;
+      }
+      .phtoProfile{
+        width: 23px;
+        height: 23px;
+      
+    }
+}
+@media(max-width: 576px){
+    header{
+        height: 80px; 
+        margin-bottom: 1rem;      
+    }
+    .image{
+        margin-left: 40px;
+        width: 80px; 
+                 
+      }
+    li a button{
+      font-size: 0.5rem;
+    }
+    .logout{
+        font-size: 0.5rem;
+      }
+      .phtoProfile{
+        width: 21px;
+        height: 21px;
+      
+    }
+}
+@media(max-width: 480px){
+    header{
+        height: 70px;       
+    }
+    .image{
+        margin-left: 35px;
+        width: 70px; 
+           
+      }
+      .logout{
+        font-size: 0.4rem;
+      }
+      .logout{
+        font-size: 0.4rem;
+      }
+      .phtoProfile{
+        width: 21px;
+        height: 21px;
+      
+    }
+   
+}

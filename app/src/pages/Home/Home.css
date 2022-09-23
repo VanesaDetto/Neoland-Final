@@ -1,0 +1,136 @@
+
+.home{
+  margin-bottom: 5rem;
+}
+.home>h1{
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 28px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.div-1{
+    width:900px;
+    height: 300px;
+    border: 2px solid black;
+}
+.parallax {
+    background: url("https://cdn.discordapp.com/attachments/997843641752096798/1020332564315123834/unknown.png") repeat
+      fixed 100%;
+    background-size: cover;
+    color: black;
+    margin-bottom: 3rem;     
+  }  
+.parallax-inner {
+    padding-top: 20%;
+    padding-bottom: 20%;   
+  }
+.parallax-inner h2{     
+      text-align: center;
+      font-size: 24px;
+      font-family: Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS' 'sans-serif;
+      color: rgba(0, 0, 0, 0.884);
+      align-items: center;
+  }
+.gallery{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+  }  
+.photo-2{
+      width: 830px;
+      height: 350px;     
+    }
+.photo-2> img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 5px;
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.404);
+    }
+.photo{     
+     height: 350px;
+     width: 400px;
+   }
+.photo>img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     border-radius: 5px;
+     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.404);    
+   }
+   @media (max-width: 992px){
+    .home>h1{
+      font-size: 28px;
+    }
+    .parallax-inner h2{
+      font-size: 20px;      
+      text-align: center;
+      align-items: center;     
+    }   
+    .photo-2{
+      width: 225px;
+      height: 290px;     
+    }    
+    .photo{          
+      width: 225px;
+      height: 290px;
+    }    
+   }
+   @media (max-width: 768px){
+    .home>h1{
+      font-size: 24px;
+    }   
+    .parallax-inner h2{
+      font-size: 18px;
+    }
+    .photo-2{
+      width: 262.50px;
+      height: 280px;     
+    }
+    .photo{          
+      width: 262.50px;
+      height: 280px;
+    }
+   } 
+   @media (max-width: 576px){
+    .home>h1{
+      font-size: 22px;
+    }    
+    .parallax-inner h2{
+      font-size: 16px;
+    }
+    .photo-2{     
+      width: 240px;
+      height: 200px;     
+    }
+    .photo{            
+      width: 240px;
+      height: 200px;
+    }
+    .parallax{
+      
+    }
+   }
+   @media (max-width: 480px){
+    .home>h1{
+      font-size: 18px;
+    }
+    .parallax-inner h2{
+      font-size: 14px;
+    }
+    .photo-2{      
+      width: 200px;
+      height: 180px;     
+    }
+    .photo{              
+      width: 200px;
+      height: 180px;
+    }
+  
+   }
+  
+   

@@ -1,0 +1,76 @@
+.carta {   
+	display: flex;
+	flex-direction: column;
+	justify-content: center;  
+	height: 600px;
+	width: 350px;
+	border-radius: 10px;   	
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.068);
+ }
+ .image-experience{
+	 height: 500px;
+	 width: 100%;	
+	 border-radius: 5px;
+	 margin-bottom: 15px;		
+ }
+ .image-experience>img{
+	 width: 100%;
+	 height: 100%;
+	 object-fit: cover;
+	 border-radius: 10px;
+ }
+ .text-container{
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: center;	
+ }
+ .text-container>h3{
+	 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;	
+	 color: black;
+	 margin-bottom: 30px;
+ }
+ a{
+	text-decoration: none;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;	
+ }
+ @media (max-width: 992px) {
+	 .carta{
+		 height: 500px;
+		 width: 325px;
+	 }
+	 .text-container>h3{
+		 margin-bottom: 25px;
+		 font-size: 16.88px;
+	 }
+ }
+ @media(max-width: 768px) {
+	 .carta{
+		 height: 450px;
+		 width: 300px;
+	 }
+	 .text-container>h3{
+		 margin-bottom: 20px;
+		 font-size: 14.88px;
+	 }
+ }
+ @media(max-width: 576px) {
+	 .carta{
+		 height: 400px;
+		 width: 275px;
+	 }
+	 .text-container>h3{
+		 margin-bottom: 16px;
+		 font-size: 12.88px;
+	 }
+ }
+ @media(max-width: 480px) {
+	 .carta{
+		 height: 375px;
+		 width: 265px;
+	 }
+	 .text-container>h3{
+		 margin-bottom: 14px;
+		 font-size: 10.88px;
+	 }
+ }

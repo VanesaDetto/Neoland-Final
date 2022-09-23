@@ -1,0 +1,206 @@
+.login-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;  
+    background-image: url(https://images.pexels.com/photos/8266739/pexels-photo-8266739.jpeg?auto=compress&cs=tinysrgb&w=600);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    margin-bottom: 5rem;
+  
+}
+.frase-container {
+    width: 50%;   
+    color: #fff;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{  
+    margin-bottom: 35px;
+}
+.title h1 {
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    text-align: center; 
+}
+.title-2 h2 {
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    text-align: center;
+}
+.login {
+    display: flex;
+    margin-left: 12rem;
+    justify-content: center;
+    align-items: center;       
+    height: 400px;
+    width:  360px;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.3rem;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.534);
+    padding: 10px 20px;  
+    border-radius: 7px;
+   
+}
+.formulario input {    
+    margin-bottom: 20px;
+    padding: 7px;    
+    font-size: 16px; 
+    width: 250px;   
+}
+.formulario label {
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: #fff; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+/*------------------------------------------*/
+.button-login {      
+    border: none;
+    width: 10rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.2rem;
+    gap: 8rem;
+    background-color: rgb(185, 32, 32);   
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.button-login:hover {    
+   
+    background-color: rgb(255, 247, 247);
+    color: rgb(185, 32, 32)
+    
+}
+/*------------------------------------------------------------------------*/
+
+@media (max-width: 992px) {
+    .login-container{
+        background-position: center;       
+    }  
+    .frase-container{
+        margin-left: 30px;
+    }    
+    .login{
+        height: 400px;
+        width:  360px; 
+        margin-right: 20px;  
+    }
+    .formulario{
+        height:  400px;
+        width:  360px;       
+    }
+    .formulario input {
+        width: 230px;            
+        font-size: 15px;        
+    }
+    .formulario label{
+        font-size: 22px;
+    }
+    .title h1{
+        font-size: 30px;
+    }
+    .title-2 h2{
+        font-size: 20px;
+    }
+    .button-login{
+        font-size: 18px;
+        width: 8rem;
+        padding: 0.4rem 1-8rem;
+    }        
+}
+@media(max-width: 768px) {
+    .login-container{
+        background-position: center;          
+    }  
+    .frase-container{
+       display: none;
+    }    
+    .login{
+        height: 350px;
+        width:  310px;    
+        margin-right: 165px; 
+    }
+    .formulario{
+        height: 350px;
+        width:  310px;     
+    }
+    .formulario input {
+        width: 210px;            
+        font-size: 13px;      
+    }
+    .formulario label{
+        font-size: 18px;
+    }
+    .button-login{
+        font-size: 16px;
+    }        
+   
+}
+@media(max-width: 576px) {
+    .login-container{
+        background-position: center;          
+    }  
+    .frase-container{
+       display: none;
+    }    
+    .login{
+        height: 300px;
+        width:  260px;    
+        margin-right: 140px; 
+    }
+    .formulario{
+        height: 300px;
+        width:  260px;     
+    }
+    .formulario input {
+        width: 180px;            
+        font-size: 12px;        
+    }
+    .formulario label{
+        font-size: 14px;
+    }
+    .button-login{
+        font-size: 14px;
+    }        
+}
+@media(max-width: 480px) {
+    .login-container{
+        background-position: center;          
+    }  
+    .frase-container{
+       display: none;
+    }    
+    .login{
+        height: 270px;
+        width:  240px;    
+        margin-right: 176px; 
+    }
+    .formulario{
+        height: 270px;
+        width:  240px;   
+    }
+    .formulario input {
+        width: 160px;            
+        font-size: 11px;        
+    }
+    .formulario label{
+        font-size: 13px;
+    }
+    .button-login{
+        font-size: 12px;
+    }        
+}

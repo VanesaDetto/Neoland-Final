@@ -1,0 +1,20 @@
+.favoritos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.favoritos>h2{
+    text-transform: uppercase;
+    color: crimson;
+}
+.favoritos>p{
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 5rem;
+    font-size: 2rem;
+}
+.favoritos>img{
+    width: 500px;
+    height: 400px;
+}

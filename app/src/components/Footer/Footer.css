@@ -1,0 +1,119 @@
+.general-footer{
+    width: 100%;
+   }
+   .division{   
+       width: 220px;
+       height: 105px;
+   }
+   .Footer {
+       display: flex;
+       text-align: center;
+       justify-content:space-evenly;
+       align-items: center; 
+       height: 125px;      
+   }
+    .Github {
+       width: 100%;   
+       display: flex;     
+       margin-bottom: 5px;     
+   }
+   .Github > h3{
+       margin-left: 20px;
+       margin-top: 7px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 14px;
+   }
+   .Github-1{
+       width:30px;
+       height: 30px;      
+   }
+   .Github>.Github-1> a > img{
+       width: 100%;  
+   }
+   .Github-2{
+       width: 50px;
+       height: 100%;
+   }
+   .Github>.Github-1> a > img:hover{
+       transition: 0.3s all ease-in-out;
+       transform: scale(1.1);
+   }
+   .Footer >h2{
+     text-align: center;
+     font-size: 20px;
+     font-weight: bolder;
+     margin: 0 0 40px 0;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+   }
+   @media (max-width: 992px){
+       .general-footer >.contacto >h2{
+           font-size: 26px;        
+       }
+       .Footer{
+           height: 55px;
+       }    
+       .Github-1{
+           width:35px;
+           height: 35px;      
+       }
+       .Github > h3{
+           font-size: 20px;
+       }
+       .Footer >h2{
+           font-size: 24px;
+       }
+   }
+   @media (max-width: 768px){
+       .general-footer >.contacto >h2{
+           font-size: 24px;
+       }
+       .Footer{
+           height: 50px;
+       }    
+       .Github-1{
+           width:30px;
+           height: 30px;      
+       }
+       .Github > h3{
+           font-size: 18px;
+       }
+       .Footer >h2{
+           font-size: 20px;
+       }
+   }
+   @media (max-width: 576px){
+       .general-footer >.contacto >h2{
+           font-size: 20px;
+       }
+       .Footer{
+           height: 45px;
+       }    
+       .Github-1{
+           width:32px;
+           height: 32px;      
+       }
+       .Github > h3{
+           font-size: 13px;
+       }
+       .Footer >h2{
+           font-size: 16px;
+       }
+   }
+   @media (max-width: 480px){
+       .general-footer >.contacto >h2{
+           font-size: 12px;
+       }
+       .Footer{
+           height: 40px;
+       }    
+       .Github-1{
+           width:30px;
+           height: 30px;      
+       }
+       .Github > h3{
+           font-size: 11px;
+       }
+       .Footer >h2{
+           font-size: 16px;
+       }
+   }

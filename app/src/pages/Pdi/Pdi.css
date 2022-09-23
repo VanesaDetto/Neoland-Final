@@ -1,0 +1,7 @@
+.pdi {
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;   
+margin-bottom: 5rem;
+}
